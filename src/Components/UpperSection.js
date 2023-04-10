@@ -19,10 +19,10 @@ const UpperSection = () => {
                     <button className="btn text-left my-3 bg-blue-600 w-fit py-2 px-3 font-bold cursor-pointer hover:bg-blue-700 text-white ">Compare All Plans</button>
                 </div>
             </div>
-            <div className='right text-white max-h-full h-96 justify-center items-center hidden md:block' style={style}>
+            <div className='right text-white max-h-full h-[30rem] justify-center items-center hidden md:block' style={style}>
                 <div className="flex justify-start items-center">
-                    <div className="textColor ms-24 flex  flex-col justify-start h-fit self-center">
-                        <h1 className='text-4xl text-left my-3'>Xbox Game Pass</h1>
+                    <div className="textColor ms-24 flex  flex-col justify-start h-fit self-center  my-32">
+                        <h1 className='text-4xl text-left my-3 font-semibold'>Xbox Game Pass</h1>
                         <p className='text-left my-3'>
                             Play hundreds of high-quality games on your console and PC, <br></br>including new games on day one, online multiplayer and EA Play
                         </p>

@@ -4,7 +4,7 @@ import icon2 from '../Images/icon2.webp'
 import icon3 from '../Images/icon3.webp'
 const Icons = () => {
     return (
-        <div className='promo flex justify-evenly items-center flex-wrap py-5 space-y-4 space-x-4'>
+        <div className='promo flex justify-evenly items-center flex-wrap py-16 space-y-4 space-x-4 flex-col md:flex-row'>
             <div>
 
             </div>
