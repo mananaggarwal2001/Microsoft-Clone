@@ -5,7 +5,7 @@ import Laptop3 from '../Images/Laptop3.jpeg'
 import bing from '../Images/bingBrowser.webp'
 const LaptopCard = () => {
     return (
-        <div className='flex md:flex-row flex-col  py-9 flex-wrap space-x-7 justify-center'>
+        <div className='flex md:flex-row flex-col  py-9 flex-wrap md:space-x-7  justify-center px-4'>
             <div>
 
             </div>
