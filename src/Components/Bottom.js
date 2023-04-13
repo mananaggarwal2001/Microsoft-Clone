@@ -80,15 +80,15 @@ const Bottom = () => {
                 </div>
 
             </div>
-            <div className=" bg-[#f2f2f2] flex justify-evenly">
-                <div className='font-semibold text-sm mb-5 text-slate-500 me-40'>English(India)</div>
+            <div className=" bg-[#f2f2f2] flex md:flex-row flex-col md:justify-evenly px-4">
+                <div className='font-semibold text-xs md:text-sm mb-5 text-slate-500 me-40 text-[10px] cursor-pointer hover:underline'>English(India)</div>
                 <div className="secondContainer">
-                    <ul className='flex md:flex-row space-x-6 font-semibold text-sm mb-5 text-slate-500'>
+                    <ul className='flex md:flex-row md:space-x-6  font-semibold text-[10px] md:text-sm mb-5 text-slate-500'>
                         <li></li>
-                        <li className='cursor-pointer hover:underline '>Contact</li>
-                        <li className='cursor-pointer hover:underline '>Microsoft Privacy</li>
-                        <li className='cursor-pointer hover:underline '>Terms of use</li>
-                        <li className='cursor-pointer hover:underline '>Trademarks About our ads</li>
+                        <li className='cursor-pointer hover:underline me-[0.5rem] '>Contact</li>
+                        <li className='cursor-pointer hover:underline me-[0.5rem] '>Microsoft Privacy</li>
+                        <li className='cursor-pointer hover:underline me-[0.5rem] '>Terms of use</li>
+                        <li className='cursor-pointer hover:underline me-[0.5rem] '>Trademarks About our ads</li>
                         <li className='cursor-pointer hover:underline '> &copy; Microsoft {date}</li>
                     </ul>
                 </div>

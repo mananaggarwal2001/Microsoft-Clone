@@ -6,14 +6,14 @@ import ForBusiness4 from '../Images/ForBusiness4.webp'
 const ForBusiness = () => {
     return (
         <>
-            <div className="px-[7.2rem]">
+            <div className="md:px-[7.2rem] px-4">
 
                 <h1 className='text-4xl font-semibold mt-20 mb-6'>For Business</h1>
-                <div className=' flex md:flex-row flex-col'>
+                <div className=' flex md:flex-row flex-col space-y-6'>
                     <div>
 
                     </div>
-                    <div className=" flex flex-col card md:w-1/4 me-4">
+                    <div className=" flex flex-col card w-full md:w-1/4 md:me-4">
                         <img src={ForBusiness1} alt="" />
                         <h1 className='text-3xl my-10 font-semibold'>Surface For Business Family</h1>
                         <p className='font-normal'>Surface for Business devices enable work on your team's terms with flexibility, built-in security and the power they need to succeed.</p>
@@ -40,7 +40,7 @@ const ForBusiness = () => {
                     </div>
                 </div>
             </div>
-            <div className="container px-[7.2rem] mt-24 mb-24">
+            <div className="container md:px-[7.2rem ] px-4 mt-24 mb-24">
 
                 <div className="links flex flex-wrap items-center">
                     <h1 className='me-3'>Follow Microsoft</h1>
