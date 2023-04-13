@@ -15,7 +15,7 @@ const XboxSeries = () => {
                     <button className="btn bg-blue-700 cursor-pointer text-white font-semibold py-2 px-3 hover:bg-blue-900">Shop Now</button>
                 </div>
             </div>
-            <img src={Xbox} className='md:hidden' alt="" srcset="" />
+            <img src={Xbox} className='md:hidden flex' alt="" srcset="" />
             <div className="container md:hidden shadow-md shadow-black p-5">
                 <h1 className='text-3xl font-semibold'>Xbox Series X</h1>
                 <p className='my-3'>The fastest,most powerful Xbox ever</p>

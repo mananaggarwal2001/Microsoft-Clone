@@ -40,7 +40,7 @@ const ForBusiness = () => {
                     </div>
                 </div>
             </div>
-            <div className="container md:px-[7.2rem ] px-4 mt-24 mb-24">
+            <div className="container md:px-[7.2rem] px-4 mt-24 mb-24">
 
                 <div className="links flex flex-wrap items-center">
                     <h1 className='me-3'>Follow Microsoft</h1>
